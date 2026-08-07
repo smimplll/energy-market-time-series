@@ -1,0 +1,17 @@
+Package: energymarkettimeseries
+Type: Project
+Title: Energy Market Time-Series Analysis
+Version: 1.0.0
+Authors@R: person("Polina", "Simonenko", role = "aut")
+Description: Reproducible ARIMA and VAR analysis of Brent oil prices,
+    Henry Hub natural gas prices and the broad U.S. dollar index using
+    daily FRED data from 2010 to 2025.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.3.0)
+Imports:
+    forecast,
+    ggplot2,
+    tseries,
+    urca,
+    vars

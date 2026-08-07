@@ -1,0 +1,8 @@
+data/processed/*.csv
+results/figures/*.png
+results/tables/*.csv
+results/tables/*.txt
+*.Rhistory
+*.RData
+.Rproj.user/
+.DS_Store
